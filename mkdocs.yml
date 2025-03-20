@@ -1,4 +1,9 @@
 site_name: My Docs
+
+nav:
+  - home: index.md
+  - new: test.md
+
 theme:
   name: material
   #Featuers
@@ -17,29 +22,31 @@ theme:
     - toc.follow
     # Quality of life
     - navigation.top
+
   #Plugins
   plugins:
     - search
     - search.suggest
     - search.highlight
+
   palette:
     # Palette toggle for light mode
     - scheme: default
+      #Additional options
+      primary: black
+      accent: blue  
+      # Toggle switch
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-        #Additional options
-        primary: black
-        accent: blue  
+        
 
     # Palette toggle for dark mode
     - scheme: slate
+      # Additional options
+      primary: black
+      accent: blue 
+      # Toggle switch
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      # Additional options
-      primary: black
-      accent: blue  
-nav:
-  - home: index.md
-  - new: test.md
