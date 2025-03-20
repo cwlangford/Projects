@@ -2,4 +2,4 @@ site_name: My Docs
 theme: material
 nav:
   - home: index.md
-  - test: test.md
+  - new: test.md
