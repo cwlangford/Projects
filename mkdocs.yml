@@ -1,4 +1,5 @@
 site_name: CWLCyberSecurity
+site_url: https://cwlcybersecurity.com/
 
 nav:
   - Home: index.md
