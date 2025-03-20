@@ -1,13 +1,11 @@
 site_name: CWLCyberSecurity
-#site_url: https://cwlcybersecurity.com/
+site_url: https://cwlcybersecurity.com/
 
 nav:
   - Home: index.md
-  - Test: IncidentResponse\LinuxForensics\linux_useractivity.md
   - Incident Response: 
     - Linux Artefacts: 
-      - User Activity: IncidentResponse\LinuxForensics\linux_useractivity.md
-  - Bob: index.md
+      - User Activity: IncidentResponse/LinuxForensics/linux_useractivity.md
 
 #extra:
   #generator: false
