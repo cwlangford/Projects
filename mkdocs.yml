@@ -4,6 +4,7 @@ site_url: https://cwlcybersecurity.com/
 nav:
   - Home: index.md
   - Incident Response: 
+    - Incident Response Lifecycle: IncidentResponse/LinuxForensics/linux_useractivity.md
     - Linux Artefacts: 
       - User Activity: IncidentResponse/LinuxForensics/linux_useractivity.md
     - Windows Artefacts:
