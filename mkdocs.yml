@@ -5,7 +5,7 @@ nav:
   - Home: index.md
   - Incident Response: 
     - Linux Artefacts: 
-      - User Activity: incident_response\linux_forensics\linux_useractivity.md
+      - User Activity: IncidentResponse\LinuxForensics\linux_useractivity.md
 
 #extra:
   #generator: false
