@@ -1,29 +1,38 @@
-site_name: My Docs
+site_name: CWLCyberSecurity
 
 nav:
-  - home: index.md
-  - new: test.md
+  - Home: index.md
+  - Incident Response: 
+    - Getting Started: incident_response/test.md
+
+#extra:
+  #generator: false
+  #social:
+    #- icon: fontawesome/brands/mastodon
+    # link: https://fosstodon.org/@squidfunk
+    # name: squidfunk on Fosstodon
 
 theme:
   name: material
-  #Featuers
   features:
     # Performance options
     - navigation.instant
-    - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.tracking
     # Navigation options
-    #- navigation.tabs
-    #- navigation.tabs.sticky #Force show tabs
+    - navigation.tabs
+    - navigation.tabs.sticky #Force show tabs
     - navigation.sections
     - navigation.expand
     - navigation.path
+    - navigation.indexes
     # Table of contents
     - toc.follow
     # Quality of life
     - navigation.top
 
-  #Plugins
   plugins:
     - search
     - search.suggest
@@ -39,7 +48,6 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-        
 
     # Palette toggle for dark mode
     - scheme: slate
@@ -50,3 +58,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+  
+  
