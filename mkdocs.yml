@@ -3,7 +3,8 @@ site_name: CWLCyberSecurity
 nav:
   - Home: index.md
   - Incident Response: 
-    - Getting Started: incident_response/test.md
+    - Linux Artefacts: 
+      - User Activity: incident_response\linux_forensics\linux_useractivity.md
 
 #extra:
   #generator: false
@@ -33,6 +34,10 @@ theme:
     - toc.follow
     # Quality of life
     - navigation.top
+    # Code Blocks
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
 
   plugins:
     - search
@@ -60,5 +65,12 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences 
   
