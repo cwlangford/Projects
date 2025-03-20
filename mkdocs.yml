@@ -3,6 +3,7 @@ site_name: CWLCyberSecurity
 
 nav:
   - Home: index.md
+  - Test: IncidentResponse\LinuxForensics\linux_useractivity.md
   - Incident Response: 
     - Linux Artefacts: 
       - User Activity: IncidentResponse\LinuxForensics\linux_useractivity.md
